@@ -114,7 +114,7 @@ def main():
                     count = 0
                 
                 if event.key == pygame.K_g:
-                    positions = gen(random.randrange(4, 10) * GRID_WIDTH)
+                    positions = gen(random.randrange(8, 15) * GRID_WIDTH)
     
         screen.fill(GREY)
         draw_grid(positions)
